@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   issues:
     types: [opened, edited]
+  push: # 添加push触发
+    branches: # 可选：限制触发工作流的分支
+      - main # 当向main分支推送更改时触发
+      # - develop # 当向develop分支推送更改时触发（如果需要的话）
   schedule:
     - cron: "0 16 * * *"
     
