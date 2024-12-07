@@ -2,5 +2,8 @@
     "title":"丌的博客",
     "subTitle":" ",
     "avatarUrl":"https://avatars.githubusercontent.com/u/49725591?v=4",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "rssSplit":"sentence",
+    "showPostSource":1,
+    "needComment":1,
 }
